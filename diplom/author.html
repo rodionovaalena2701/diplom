@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Вход</title>
+  <link rel="stylesheet" type="text/css" href="public\css\main.css">
+</head>
+<body>
+    <form action="public/database/test_user.php" class="form" method="post">
+    <h1 class="form-title">Вход</h1>
+    <input name="login" type="text" size="15" maxlength="15" class="input form-input login" placeholder="Логин" required>
+    <input name="pass" type="password" class="input form-input pass"  size="15" maxlength="15" placeholder="Пароль" required>
+    <input name="submit" type="submit" value="Войти" class="btn submit">
+    <div class="form-links">
+      <a href="index.php" class="form-link">Назад</a>
+      <a href="registr.html" class="form-link">Регистрация</a>
+    </div>
+  </form>
+</body>
+</html>

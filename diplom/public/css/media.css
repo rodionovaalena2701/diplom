@@ -1,0 +1,33 @@
+@media (max-width: 1300px) {
+  .header-icon {
+    width: 40px;
+    height: 40px;
+  }
+  
+  .header-logo {
+    height: 40px;
+  }
+  .categ-text {
+    font-size: 12px;
+  }
+  .categ-icon {
+    width: 35px;
+    height: 35px;
+  }
+}
+@media (max-width: 1100px) {
+  .category {
+    padding: 5px;
+  }
+  .categ-text {
+    font-size: 10px;
+    margin-left: 5px;
+  }
+  .categ-icon {
+    width: 30px;
+    height: 30px;
+  }
+}
+@media (max-width: 950px) {
+
+}
